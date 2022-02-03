@@ -1,0 +1,35 @@
+.btn-green{
+    color: #fff;
+    border-color: #0c4e2f;
+    background-color: #0c4e2f;
+    
+}
+.text-green{
+    color: #0c4e2f !important;
+}
+
+.bg-green{
+    background-color: #0c4e2f !important;
+}
+
+.bg-yellow{
+    background-color: #f7b71f !important;
+}
+.union {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 40%;
+    /* height: 676.2px; */
+    /* margin: 0 0.2px 14.8px 121px; */
+    padding: 8% 15% 20% 196px;
+    /* transform: rotate(-180deg); */
+    background-color: #f7b71f;
+    border-bottom-left-radius: 10rem!important;
+    border-top-left-radius: 10rem!important;
+  }
+
+.z-index{
+    z-index:999;
+
+}
