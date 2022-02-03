@@ -38,6 +38,10 @@ const SectionOne = () => {
                     </div>
 
                 </div>
+                <div className='col-md-6 col-sm-6'>
+                    <img src="https://www.coremobileapps.com/wp-content/uploads/intl-fb-showcase1.png" className='z-index' style={{width:"150%", marginTop:"-40%"}}></img>
+
+                </div>
             </div>
         </section>
     </Fragment>

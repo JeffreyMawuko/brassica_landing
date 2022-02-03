@@ -27,6 +27,7 @@
     background-color: #f7b71f;
     border-bottom-left-radius: 10rem!important;
     border-top-left-radius: 10rem!important;
+    z-index: -1;
   }
 
 .z-index{
