@@ -23,9 +23,7 @@ const BaseLayout = (props) => {
       </Head>
 
       <main>
-        <div className="container">
           {children}
-        </div>
       </main>
       <script src="https://use.fontawesome.com/12da6888e2.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
