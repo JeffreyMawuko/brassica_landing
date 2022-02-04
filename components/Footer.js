@@ -6,7 +6,7 @@ const Footer = () => {
   return(
     <Fragment>
         <div className='container'>
-        <section style={{marginTop:"10%"}}>
+        <section style={{marginTop:"10%"}} className='mb-5'>
             <div className="row">
                 <div className="col-md-3 col-sm-12 text-muted">
                     <ul className='list-unstyled'>
@@ -54,6 +54,10 @@ const Footer = () => {
 
                 </div>
             </div>
+        </section>
+        <section className='mt-5'>
+            <p className='small text-grey text-center'>Copyright &copy; {new Date().getFullYear()} Brassica Pay</p>
+
         </section>
         </div>
     </Fragment>
