@@ -7,12 +7,24 @@
 .text-green{
     color: #006f45 !important;
 }
+.text-grey{
+    color: #c4c4c4;
+}
 
 .bg-green{
     background-color: #006f45 !important;
 }
+.bg-dark-green{
+    background-color: #003f25;
+}
 .bg-green-1{
     background-color: #05402a42;
+}
+.bg-wine{
+    background-color: #a62e5c;
+}
+.bg-off-green{
+    background-color: #0e4f5f;
 }
 
 .btn-outline-white {
