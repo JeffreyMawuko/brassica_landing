@@ -50,7 +50,7 @@ const SectionTwo = () => {
                                     <span className={`small ${tab.tab==='transfer'?'text-black':'text-green'}`}>Transfer</span>
                                 </span>
                             </button>
-                            <button className={`btn ${tab.tab==='invest'?'btn-warning':'btn-outline-success bg-white text-white'} rounded-pill px-4 mb-2 mb-lg-0 me-4`} onClick={()=>handleChangeTab('invest')}>
+                            <button className={`btn ${tab.tab==='invest'?'btn-warning':'btn-outline-success bg-white text-white'} rounded-pill px-4 mb-2 mb-lg-0`} onClick={()=>handleChangeTab('invest')}>
                                 <span className="d-flex align-items-center">
                                     <span className={`small ${tab.tab==='invest'?'text-black':'text-green'}`}>Invest</span>
                                 </span>
