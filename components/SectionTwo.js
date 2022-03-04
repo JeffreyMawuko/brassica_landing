@@ -2,25 +2,25 @@ import { Fragment, useState } from 'react';
 
 const SectionTwo = () => {
 
-    const [tab, setTab] = useState({tab:'pay', bgColor:'bg-green', title:'Pay with Brassica', image:'/assets/images/bg/3.png',
+    const [tab, setTab] = useState({tab:'pay', bgColor:'bg-green', title:'Pay with Brassica', image:'/assets/images/bg/group_5386.png', imageSize:'w-75',
     description:'Brassica Pay is the preferred provider of retail micro-investment services, ordered through digital channels encouraging investments for all types of investors.'});
 
     function handleChangeTab(tab){
         if(tab === 'pay'){
-            setTab({tab:'pay', bgColor:'bg-green', title:'Pay with Brassica', image:'/assets/images/bg/3.png',
+            setTab({tab:'pay', bgColor:'bg-green', title:'Pay with Brassica', image:'/assets/images/bg/group_5386.png', imageSize:'w-75',
             description:'Brassica Pay is the preferred provider of retail micro-investment services, ordered through digital channels encouraging investments for all types of investors.'}
             );
         
         }else if(tab === 'buy'){
-            setTab({tab:'buy', bgColor:'bg-wine', title:'Buy the smart way', image:'/assets/images/bg/1.png',
+            setTab({tab:'buy', bgColor:'bg-wine', title:'Buy the smart way', image:'/assets/images/bg/group_5380.png', imageSize:'w-100',
             description:'Brassica Pay is the preferred provider of retail micro-investment services, ordered through digital channels encouraging investments for all types of investors.'}
             );
         }else if(tab==='transfer'){
-            setTab({tab:'transfer', bgColor:'bg-off-green', title:'Transfers made easy with a click', image:'/assets/images/bg/3.png',
+            setTab({tab:'transfer', bgColor:'bg-off-green', title:'Transfers made easy with a click', image:'/assets/images/bg/group_5386.png', imageSize:'w-75',
             description:'Brassica Pay is the preferred provider of retail micro-investment services, ordered through digital channels encouraging investments for all types of investors.'}
             );
         }else{
-            setTab({tab:'invest', bgColor:'bg-dark-green', title:'Grow your wealth, Invest with Us', image:'/assets/images/bg/6.png',
+            setTab({tab:'invest', bgColor:'bg-dark-green', title:'Grow your wealth, Invest with Us', image:'/assets/images/bg/6.png', imageSize:'w-100',
             description:'Brassica Pay is the preferred provider of retail micro-investment services, ordered through digital channels encouraging investments for all types of investors.'}
             );
         }
@@ -29,7 +29,7 @@ const SectionTwo = () => {
   return(
     <Fragment>
         
-        <section className={`rounded-3r ${tab.bgColor} mt-5 mb-5 vh-75`}>
+        <section className={`rounded-3r ${tab.bgColor} mt-5 mb-5 vh-75`} style={{minHeight: "700px"}}>
             <div className='container mb-5'>
                 <div className='row d-flex align-items-center mb-5'>
                     <div className='col-4'></div>
@@ -63,7 +63,7 @@ const SectionTwo = () => {
                 </div>
                
                 <div className="row mt-5 mb-5">
-                    <div className="col-md-6 col-sm-12">
+                    <div className="col-md-4 offset-md-2 col-sm-12 mt-5">
                         <div className="text-white h3 mt-5">{tab.title}</div>
                         <div className="small text-white mt-4">{tab.description}</div>
 
@@ -77,7 +77,7 @@ const SectionTwo = () => {
                     </div>
                     <div className='col-md-1'></div>
                     <div className='col-md-4 col-sm-6 d-flex align-items-center' style={{marginBottom:"10%"}}>
-                        <img src={`${tab.image}`} className='z-index w-75'></img>
+                        <img src={`${tab.image}`} className={`z-index ${tab.imageSize}`}></img>
                     </div>
                 </div>
             </div>

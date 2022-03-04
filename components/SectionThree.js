@@ -22,7 +22,7 @@ const SectionThree = () => {
             <div className="row mb-5">
                 <div className="row gx-5">
                     <div className="col">
-                        <div className="p-3"><img src="/assets/images/bg/1.png" className='z-index w-75'></img></div>
+                        <div className="p-3"><img src="/assets/images/bg/group_5379.png" className='z-index w-75'></img></div>
                     </div>
                     <div className="col text-green">
                         <p className="h3 mb-5 mt-4">You are a brand Steward</p>
@@ -60,7 +60,7 @@ const SectionThree = () => {
                             </p>
                     </div>
                     <div className="col">
-                        <div className="p-3"><img src="/assets/images/bg/1.png" className='z-index w-75'></img></div>
+                        <div className="p-3"><img src="/assets/images/bg/group_5380.png" className='z-index w-75'></img></div>
                     </div>
                 </div>
             </div>
