@@ -22,7 +22,7 @@ const TopNav = () => {
                         <li className="nav-item"><a className="nav-link me-lg-3 text-green" href="#download">Invest</a></li>
                         <li className="nav-item"><a className="nav-link me-lg-3 text-green" href="#download">Pay</a></li>
                     </ul>
-                    <button className="btn btn-green rounded-pill px-5 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                    <button className="btn btn-green rounded-pill px-5 mb-2 mb-lg-0" >
                         <span className="d-flex align-items-center">
                             <span className="small">Login</span>
                         </span>
