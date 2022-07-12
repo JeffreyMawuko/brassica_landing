@@ -10,8 +10,8 @@ const SectionOne = () => {
             <div className="row">
                 <div className="col-md-6 col-sm-12">
                     <div className="fw-bold text-green h1">Join the Brassica family</div>
-                    <div className="small text-green mt-4">Send money home to your loved ones at the click of a button across Africa. We're currently available only in Ghana. 
-                    We'll be expanding to new African countries soon.</div>
+                    <div className="small text-green mt-4">Send money home to your loved ones at the click of a button across Africa. We&apos;re currently available only in Ghana. 
+                    We&apos;ll be expanding to new African countries soon.</div>
 
                     <div className="btn-toolbar mt-4">
                         <div className="btn-group me-2">
