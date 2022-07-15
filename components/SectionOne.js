@@ -39,7 +39,8 @@ const SectionOne = () => {
 
                 </div>
                 <div className='col-md-6 col-sm-6'>
-                    <img src="https://www.coremobileapps.com/wp-content/uploads/intl-fb-showcase1.png" className='z-index' style={{width:"150%", marginTop:"-40%"}}></img>
+                    {/* <img src="/assets/images/bg/home-banner.png" className='z-index' style={{width:"150%", marginTop:"-40%"}}></img> */}
+                    <img src="/assets/images/bg/home-banner.png" className='z-index' style={{width:"110%", marginTop:"-30%"}}></img>
 
                 </div>
             </div>
