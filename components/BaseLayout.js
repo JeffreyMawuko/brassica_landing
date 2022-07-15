@@ -29,7 +29,7 @@ const BaseLayout = (props) => {
       {/* <script src="https://use.fontawesome.com/12da6888e2.js"></script> */}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossOrigin="anonymous"></script>
+      crossOrigin="anonymous" async></script>
       {/* <script src="https://kit.fontawesome.com/a703993976.js" crossOrigin="anonymous"></script> */}
       {/* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossOrigin="anonymous"></script> */}
     </Fragment>
